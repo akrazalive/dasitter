@@ -1,0 +1,292 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DirectoryPress Maps\n"
+"POT-Creation-Date: 2022-01-10 17:49+0500\n"
+"PO-Revision-Date: 2020-06-30 14:29+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: directorypress-maps.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-directorypress-maps-admin.php:96
+msgid "DirectoryPress Maps Addon"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:103
+msgid "General"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:109
+msgid "Google JavaScript API key"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:110
+#, php-format
+msgid ""
+"get your Google API key <a href=\"%s\" target=\"_blank\">here</a>, "
+"following APIs must be enabled in the console: Google Maps JavaScript API, "
+"Google Static Maps API and Google Maps Directions API."
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:116
+msgid "Google server API key"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:117
+#, php-format
+msgid ""
+"get your Google API key <a href=\"%s\" target=\"_blank\">here</a>, "
+"following APIs must be enabled in the console: Google Maps Geocoding API "
+"for radius search functionality."
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:124
+msgid "Show Map On Main Directory Page?"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:130
+msgid "Show Map On Archive Page?"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:131
+msgid ""
+"archive pages includes search result page, category page, location page "
+"and tags page"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:137
+msgid "Show map on single listing"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:138
+msgid "Turn map on/Off at single listing page"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:144
+msgid "Listings Map Position"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:147
+msgid "In Tabs"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:148
+msgid "Out Side of Tabs"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:154
+msgid "How many map markers to display on the map"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:156
+msgid "The only map markers of visible listings will be displayed"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:157
+msgid ""
+"Display all map markers (lots of markers on one page may slow down page "
+"loading)"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:164
+msgid ""
+"Restriction of address fields for the default country (autocomplete and "
+"search)"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:171
+msgid "Show directions panel for individual listing map?"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:177
+msgid "Directions functionality"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:179
+msgid "Built-in routing"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:180
+msgid "Link to Google Maps"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:188
+msgid "Default Google Maps zoom Level (for submission page)"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:196
+msgid "Default Google Maps zoom Level (for Archive pages)"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:204
+msgid "Archive pages map starting address"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:210
+msgid "Archive pages map starting latitude"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:216
+msgid "Archive pages map starting longitude"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:224
+msgid "Google Maps style"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:232
+msgid "Default map height (in pixels)"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:239
+msgid "Show cycle during radius search?"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:245
+msgid "Enable clusters of map markers?"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:253
+msgid "Controls"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:259
+msgid "Enable Draw Panel"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:260
+msgid ""
+"Very important: MySQL version must be 5.6.1 and higher or MySQL server "
+"variable \"thread stack\" must be 256K and higher. Ask your host about it "
+"if \"Draw Area\" does not work."
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:266
+msgid "Enable full screen button"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:272
+msgid "Enable zoom by mouse wheel"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:273
+msgid "For desktops"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:279
+msgid "Enable map dragging on touch screen devices"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:285
+msgid "Center map on marker click"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:293
+msgid "Markers & Info Window"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:299
+msgid "Type of Map Markers"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:301
+msgid "Font icons (recommended)"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:302
+msgid "PNG images"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:309
+msgid "Default Map Marker color"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:311
+msgid "For Font Awesome icons."
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:316
+msgid "Default Map Marker icon"
+msgstr ""
+
+#: admin/class-directorypress-maps-admin.php:317
+msgid ""
+"add font class e.g(fas fa-map-marker-alt), you can use fontawesome or any "
+"thirdparty icon from a plugin or theme"
+msgstr ""
+
+#: admin/license/license.php:44
+msgid "Enter a valid license key."
+msgstr ""
+
+#: admin/license/license.php:45
+msgid "Enter valid/same email address used at the time of purchase."
+msgstr ""
+
+#: admin/license/license.php:46
+msgid "Enter same/valid purchase order ID."
+msgstr ""
+
+#: admin/license/license.php:73 admin/license/license.php:74
+msgid "Activate License"
+msgstr ""
+
+#: public/partials/google_directions.php:5
+msgid "Get directions from:"
+msgstr ""
+
+#: public/partials/google_directions.php:7
+msgid "Enter address or zip code"
+msgstr ""
+
+#: public/partials/google_directions.php:18
+msgid " "
+msgstr ""
+
+#: public/partials/google_directions.php:30
+#: public/partials/google_directions.php:56
+msgid "Get directions"
+msgstr ""
+
+#: public/partials/google_directions.php:36
+msgid "directions to:"
+msgstr ""
+
+#: public/partials/google_directions.php:44
+msgid ","
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DirectoryPress Maps"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://directorypress.co/product/directorypress-maps-addon/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DirectoryPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://directorypress.co/"
+msgstr ""

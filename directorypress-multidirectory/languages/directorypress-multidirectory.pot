@@ -1,0 +1,252 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DirectoryPress MultiDirectory\n"
+"POT-Creation-Date: 2022-01-10 17:49+0500\n"
+"PO-Revision-Date: 2020-02-19 18:10+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: directorypress-multidirectory.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-directorypress-multidirectory-backend.php:10
+#: admin/class-directorypress-multidirectory-backend.php:11
+msgid "Directorytypes"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:63
+#: admin/class-directorypress-multidirectory-db.php:45
+msgid "Required page is missing!"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:66
+msgid "Label"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:69
+msgid "Singular Name"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:72
+msgid "Plural Name"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:75
+msgid "Directory Slug"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:78
+msgid "Category Slug"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:81
+msgid "Location Slug"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:84
+msgid "Tags Slug"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:87
+msgid "Directory URL"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:90
+msgid "Directory Shortcode"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:106
+#: admin/class-directorypress-multidirectory-db.php:19
+#: admin/class-directorypress-multidirectory-db.php:47
+msgid "Configure"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:118
+#: admin/class-directorypress-multidirectory-db.php:76
+msgid "Edit"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:120
+#: admin/class-directorypress-multidirectory-db.php:77
+msgid "Delete"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:136
+#: public/partials/directorypress-create.php:14
+msgid "Directory name"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:137
+#: public/partials/directorypress-create.php:18
+msgid "Single form"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:138
+#: public/partials/directorypress-create.php:23
+msgid "Plural form"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:139
+#: public/partials/directorypress-create.php:31
+msgid "Listing slug"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:140
+#: public/partials/directorypress-create.php:35
+msgid "Category slug"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:141
+#: public/partials/directorypress-create.php:39
+msgid "Location slug"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:142
+#: public/partials/directorypress-create.php:43
+msgid "Tag slug"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:143
+#: public/partials/directorypress-create.php:49
+msgid "Assigned categories"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:144
+#: public/partials/directorypress-create.php:54
+msgid "Assigned locations"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:145
+msgid "Levels"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:151
+msgid "Directory was updated successfully!"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:155
+msgid "Directory was created successfully!"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:175
+msgid "Directory was deleted successfully!"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:178
+#, php-format
+msgid "Are you sure you want delete \"%s\" directory?"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:179
+msgid "Existing listings will be moved to directory:"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-backend.php:202
+msgid ""
+"One or several slugs equal to the slug of directorytype page! This may cause "
+"problems."
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-db.php:9
+msgid "directorytype"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-db.php:10
+msgid "directorytypes"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-db.php:17
+msgid "ID"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-db.php:18
+msgid "Name"
+msgstr ""
+
+#: admin/class-directorypress-multidirectory-db.php:95
+msgid "No directorytypes found."
+msgstr ""
+
+#: includes/class-directorypress-multidirectory-core.php:27
+msgid "Listings"
+msgstr ""
+
+#: includes/class-directorypress-multidirectory-core.php:28
+msgid "listing"
+msgstr ""
+
+#: includes/class-directorypress-multidirectory-core.php:29
+msgid "listings"
+msgstr ""
+
+#: includes/general-function.php:96 includes/general-function.php:171
+msgid "No kiddies please!"
+msgstr ""
+
+#: public/partials/directorypress-create.php:29
+msgid ""
+"Slugs must contain only alpha-numeric characters, underscores or dashes. All "
+"slugs must be unique and different."
+msgstr ""
+
+#: public/partials/directorypress-create.php:59
+msgid "Listings packages"
+msgstr ""
+
+#: public/partials/directorypress-create.php:62
+msgid "- Select All -"
+msgstr ""
+
+#: public/partials/directorypress-multidirectory-backend.php:8
+msgid "Listings directorytypes"
+msgstr ""
+
+#: public/partials/directorypress-multidirectory-backend.php:9
+msgid "You can create unlimited Listing Directorytypes"
+msgstr ""
+
+#: public/partials/directorypress-multidirectory-backend.php:10
+msgid "Create new directorytype"
+msgstr ""
+
+#: public/partials/directorypress-multidirectory-backend.php:30
+msgid "Create"
+msgstr ""
+
+#: public/partials/directorypress-multidirectory-backend.php:31
+#: public/partials/directorypress-multidirectory-backend.php:43
+msgid "Cancel"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DirectoryPress MultiDirectory"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://directorypress.co/product/directorypress-multi-directory-addon/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This Plugin provides multi-directorytype feature for DirectoryPress Plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DirectoryPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://directorypress.co/"
+msgstr ""

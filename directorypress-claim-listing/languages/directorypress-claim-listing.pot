@@ -1,0 +1,240 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DirectoryPress Claim Listing\n"
+"POT-Creation-Date: 2022-01-10 17:44+0500\n"
+"PO-Revision-Date: 2021-12-03 06:58+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: directorypress-claim-listing.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-directorypress-claim-listing-admin-tables.php:24
+#: admin/class-directorypress-claim-listing-admin.php:93
+msgid "Listing claim"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin-tables.php:49
+#: admin/class-directorypress-claim-listing-admin.php:138
+#: public/class-directorypress-claim-listing-public.php:32
+#: public/class-directorypress-claim-listing-public.php:67
+msgid "Claim"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin-tables.php:66
+#: admin/class-directorypress-claim-listing-admin.php:155
+msgid "Claimable"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin-tables.php:78
+#: admin/class-directorypress-claim-listing-admin.php:167
+msgid "DirectoryPress Claim Addon"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin-tables.php:83
+#: admin/class-directorypress-claim-listing-admin.php:172
+msgid "General"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin-tables.php:90
+#: admin/class-directorypress-claim-listing-admin.php:179
+msgid "Enable claim functionality"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin-tables.php:96
+#: admin/class-directorypress-claim-listing-admin.php:185
+msgid "Approval of claim required"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin-tables.php:97
+#: admin/class-directorypress-claim-listing-admin.php:186
+msgid ""
+"In other case claim will be processed immediately without any notifications"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin-tables.php:103
+#: admin/class-directorypress-claim-listing-admin.php:192
+msgid "What will be with listing status after successful approval?"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin-tables.php:104
+#: admin/class-directorypress-claim-listing-admin.php:193
+msgid "When set to expired - renewal may be payment option"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin-tables.php:106
+#: admin/class-directorypress-claim-listing-admin.php:195
+msgid "just approval"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin-tables.php:107
+#: admin/class-directorypress-claim-listing-admin.php:196
+msgid "expired status"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin.php:36
+msgid "Any listings claim"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin.php:37
+msgid "Only claimable"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin.php:38
+msgid "Awaiting approval"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin.php:153
+msgid "Process Claim"
+msgstr ""
+
+#: admin/class-directorypress-claim-listing-admin.php:203
+msgid "Hide contact form on claimable listings"
+msgstr ""
+
+#: includes/class-directorypress-claim.php:61
+msgid "Your claim was approved successully"
+msgstr ""
+
+#: includes/class-directorypress-claim.php:63
+msgid "Your claim was not approved yet"
+msgstr ""
+
+#: includes/class-directorypress-claim.php:66
+#, php-format
+msgid "You may approve or decline claim <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/functions.php:73
+msgid "Claim notification"
+msgstr ""
+
+#: includes/functions.php:88
+msgid ""
+"Claim sent successfully, A notification has been sent to current listing "
+"owner, Your would be informed via email upon approval by current owner."
+msgstr ""
+
+#: includes/functions.php:93
+msgid "Claim approved successfully!"
+msgstr ""
+
+#: includes/functions.php:98
+msgid "Can not claim own listing"
+msgstr ""
+
+#: includes/functions.php:116
+#, php-format
+msgid ""
+"User \"%s\" has claimed the listing \"%s\", Please approve or decline claim "
+"below"
+msgstr ""
+
+#: includes/functions.php:120
+msgid "Additional note from claimer:"
+msgstr ""
+
+#: includes/functions.php:125
+msgid "A notification will be served to new owner in case of approval."
+msgstr ""
+
+#: includes/functions.php:129
+msgid "Approve"
+msgstr ""
+
+#: includes/functions.php:130
+msgid "Decline"
+msgstr ""
+
+#: includes/functions.php:155
+msgid "Approval of claim notification"
+msgstr ""
+
+#: includes/functions.php:168
+msgid "Listing claim was approved successfully!"
+msgstr ""
+
+#: includes/functions.php:174
+msgid "Claim decline notification"
+msgstr ""
+
+#: includes/functions.php:187
+msgid "Listing claim was declined!"
+msgstr ""
+
+#: includes/functions.php:191
+msgid "You are not able to manage this listing!"
+msgstr ""
+
+#: public/claim.php:6
+msgid "After approval listing status would become expired."
+msgstr ""
+
+#: public/claim.php:12
+msgid "Additional Note"
+msgstr ""
+
+#: public/claim.php:16
+msgid "Send Claim"
+msgstr ""
+
+#: public/class-directorypress-claim-listing-public.php:33
+msgid "Claim Listing"
+msgstr ""
+
+#: public/class-directorypress-claim-listing-public.php:42
+msgid "Claim This Listing"
+msgstr ""
+
+#: public/class-directorypress-claim-listing-public.php:70
+msgid "Respond"
+msgstr ""
+
+#: public/class-directorypress-claim-listing-public.php:70
+msgid "Respond To Claim"
+msgstr ""
+
+#: public/class-directorypress-claim-listing-public.php:72
+msgid "N/A"
+msgstr ""
+
+#: public/class-directorypress-claim-listing-public.php:99
+msgid "Is Claimable? "
+msgstr ""
+
+#: public/class-directorypress-claim-listing-public.php:100
+msgid ""
+"By checking this option you allow registered users to claim this listing."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DirectoryPress Claim Listing"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://directorypress.co/product/directorypress-claim-listing"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This Addon provide claim functionality for DirectoryPress Plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DirectoryPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://directorypress.co/"
+msgstr ""

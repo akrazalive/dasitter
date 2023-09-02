@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "058425c25d47eeeb47a76f4d6160a1a9",
+    "packages": [
+        {
+            "name": "thewebsolver/tws-license-manager-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheWebSolver/tws-license-manager-client.git",
+                "reference": "31751eeb7143b4ef21b292fc5a6a5b3f5dd32b1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheWebSolver/tws-license-manager-client/zipball/31751eeb7143b4ef21b292fc5a6a5b3f5dd32b1a",
+                "reference": "31751eeb7143b4ef21b292fc5a6a5b3f5dd32b1a",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TheWebSolver\\License_Manager\\": [
+                        "Includes"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "hsehszroc",
+                    "email": "shesh@thewebsolver.com"
+                }
+            ],
+            "description": "A PHP Wrapper for handling REST API for License Manager for WooCommerce",
+            "keywords": [
+                "REST API",
+                "api",
+                "thewebsolver",
+                "woocommerce"
+            ],
+            "support": {
+                "issues": "https://github.com/TheWebSolver/tws-license-manager-client/issues",
+                "source": "https://github.com/TheWebSolver/tws-license-manager-client/tree/master"
+            },
+            "time": "2021-05-30T12:14:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "thewebsolver/tws-license-manager-client": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

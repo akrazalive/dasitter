@@ -1,0 +1,892 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Frontend Messages For DirectoryPress\n"
+"POT-Creation-Date: 2022-01-10 17:47+0500\n"
+"PO-Revision-Date: 2020-03-02 18:47+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: directorypress-frontend-messages.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-directorypress-frontend-messages-admin.php:58
+#: admin/class-directorypress-frontend-messages-admin.php:742
+#: includes/class-difp-menu.php:51
+msgid "Settings"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:81
+msgid "Use Current Page"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:101
+#: admin/class-directorypress-frontend-messages-admin.php:102
+msgid "Messages to show per page"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:133
+msgid "Editor Type"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:136
+msgid "Wp Editor"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:137
+msgid "Wp Editor (Teeny)"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:138
+msgid "Textarea"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:217
+msgid "Remove Data on Uninstall?"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:218
+#, php-format
+msgid ""
+"Check this box if you would like %s to completely remove all of its data "
+"when the plugin is deleted."
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:282
+msgid "Email Content Type"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:284
+msgid "HTML"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:285
+msgid "Plain Text"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:294
+msgid "From Name"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:295
+msgid ""
+"All email send by DesignInvento Messaging System plugin will have this name "
+"as sender."
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:303
+msgid "From Email"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:304
+msgid ""
+"All email send by DesignInvento Messaging System plugin will have this email "
+"address as sender."
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:316
+msgid "Who can access message system?"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:318
+msgid "User must have access permission to send new message or reply."
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:328
+msgid "Who can send new message?"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:338
+msgid "Who can send reply?"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:346
+msgid "Whitelist Username"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:347
+msgid ""
+"Separated by comma. These users have all permission if blocked by role also."
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:354
+msgid "Blacklist Username"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:355
+msgid ""
+"Separated by comma. These users have NO permission if allowed by role also."
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:366
+#, php-format
+msgid "Max messages a %s can keep in box? (0 = Unlimited)"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:515
+#: includes/class-difp-form.php:395
+#, php-format
+msgid "No Function or Hook defined for %s field type"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:537
+#, php-format
+msgid "Provide valid email address for %s"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:558
+#: admin/class-directorypress-frontend-messages-admin.php:569
+#, php-format
+msgid "Invalid value for %s"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:636
+msgid "General"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:652
+msgid "Emails"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:656
+msgid "Security"
+msgstr ""
+
+#: admin/class-directorypress-frontend-messages-admin.php:660
+msgid "Message Box"
+msgstr ""
+
+#: includes/class-difp-ajax.php:64 includes/functions.php:1123
+msgid "No matches found"
+msgstr ""
+
+#: includes/class-difp-announcement.php:246
+#, php-format
+msgid "%s announcement"
+msgid_plural "%s announcements"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-difp-announcement.php:248 includes/class-difp-bid.php:408
+#: includes/class-difp-message.php:408
+msgid "successfully deleted."
+msgstr ""
+
+#: includes/class-difp-announcement.php:283 includes/class-difp-bid.php:481
+#: includes/class-difp-message.php:481
+msgid "Delete"
+msgstr ""
+
+#: includes/class-difp-announcement.php:293 includes/class-difp-bid.php:498
+#: includes/class-difp-message.php:498
+msgid "Show all"
+msgstr ""
+
+#: includes/class-difp-announcement.php:294 includes/class-difp-bid.php:501
+#: includes/class-difp-message.php:501
+msgid "Read"
+msgstr ""
+
+#: includes/class-difp-announcement.php:295
+#: includes/class-difp-announcement.php:325 includes/class-difp-bid.php:502
+#: includes/class-difp-bid.php:565 includes/class-difp-message.php:502
+#: includes/class-difp-message.php:565
+msgid "Unread"
+msgstr ""
+
+#: includes/class-difp-announcement.php:296
+msgid "After i registered"
+msgstr ""
+
+#: includes/class-difp-announcement.php:304 includes/class-difp-bid.php:511
+#: includes/class-difp-message.php:511
+msgid "Checkbox"
+msgstr ""
+
+#: includes/class-difp-announcement.php:305
+msgid "Date"
+msgstr ""
+
+#: includes/class-difp-announcement.php:306 includes/class-difp-bid.php:513
+#: includes/class-difp-message.php:513
+msgid "Title"
+msgstr ""
+
+#: includes/class-difp-announcement.php:364 public/view_announcement.php:27
+msgid "You do not have permission to view this announcement!"
+msgstr ""
+
+#: includes/class-difp-attachment.php:119
+msgid "Attachments"
+msgstr ""
+
+#: includes/class-difp-attachment.php:124
+#, php-format
+msgid "Download %s"
+msgstr ""
+
+#: includes/class-difp-attachment.php:143
+msgid "Invalid token"
+msgstr ""
+
+#: includes/class-difp-attachment.php:146
+#: includes/class-difp-attachment.php:149
+msgid "No attachments found"
+msgstr ""
+
+#: includes/class-difp-attachment.php:159
+#: includes/class-difp-attachment.php:161
+#: includes/class-difp-attachment.php:163
+msgid "You have no permission to download this attachment."
+msgstr ""
+
+#: includes/class-difp-attachment.php:174
+msgid "Attachment already deleted"
+msgstr ""
+
+#: includes/class-difp-bid.php:54 includes/class-difp-message.php:54
+#, php-format
+msgid "Please wait at least %s between messages."
+msgstr ""
+
+#: includes/class-difp-bid.php:54 includes/class-difp-message.php:54
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-difp-bid.php:67 includes/class-difp-message.php:67
+msgid "Your message box is full. Please delete some messages."
+msgstr ""
+
+#: includes/class-difp-bid.php:404 includes/class-difp-message.php:404
+#, php-format
+msgid "%s message"
+msgid_plural "%s messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-difp-bid.php:410 includes/class-difp-message.php:410
+msgid "successfully marked as read."
+msgstr ""
+
+#: includes/class-difp-bid.php:412 includes/class-difp-message.php:412
+msgid "successfully marked as unread."
+msgstr ""
+
+#: includes/class-difp-bid.php:414 includes/class-difp-message.php:414
+msgid "successfully archived."
+msgstr ""
+
+#: includes/class-difp-bid.php:416 includes/class-difp-message.php:416
+msgid "successfully restored."
+msgstr ""
+
+#: includes/class-difp-bid.php:482 includes/class-difp-message.php:482
+msgid "Mark as read"
+msgstr ""
+
+#: includes/class-difp-bid.php:483 includes/class-difp-message.php:483
+msgid "Mark as unread"
+msgstr ""
+
+#: includes/class-difp-bid.php:487 includes/class-difp-message.php:487
+msgid "Restore"
+msgstr ""
+
+#: includes/class-difp-bid.php:489 includes/class-difp-bid.php:503
+#: includes/class-difp-message.php:489 includes/class-difp-message.php:503
+msgid "Archive"
+msgstr ""
+
+#: includes/class-difp-bid.php:499 includes/class-difp-message.php:499
+msgid "Inbox"
+msgstr ""
+
+#: includes/class-difp-bid.php:500 includes/class-difp-message.php:500
+msgid "Sent"
+msgstr ""
+
+#: includes/class-difp-bid.php:512 includes/class-difp-message.php:512
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/class-difp-bid.php:584 includes/class-difp-message.php:584
+msgid "Bid"
+msgstr ""
+
+#: includes/class-difp-cpt.php:51
+msgctxt "post type general name"
+msgid "Messages"
+msgstr ""
+
+#: includes/class-difp-cpt.php:52
+msgctxt "post type singular name"
+msgid "Message"
+msgstr ""
+
+#: includes/class-difp-cpt.php:53 includes/class-difp-cpt.php:54
+#: includes/class-difp-cpt.php:56 includes/class-difp-emails.php:70
+msgid "New Message"
+msgstr ""
+
+#: includes/class-difp-cpt.php:55
+msgid "Edit Message"
+msgstr ""
+
+#: includes/class-difp-cpt.php:57
+msgid "All Messages"
+msgstr ""
+
+#: includes/class-difp-cpt.php:58
+msgid "View Message"
+msgstr ""
+
+#: includes/class-difp-cpt.php:59
+msgid "Search Message"
+msgstr ""
+
+#: includes/class-difp-cpt.php:60
+msgid "No Messages found"
+msgstr ""
+
+#: includes/class-difp-cpt.php:61
+msgid "No Messages found in Trash"
+msgstr ""
+
+#: includes/class-difp-cpt.php:86
+msgctxt "post type general name"
+msgid "Announcements"
+msgstr ""
+
+#: includes/class-difp-cpt.php:87
+msgctxt "post type singular name"
+msgid "Announcement"
+msgstr ""
+
+#: includes/class-difp-cpt.php:88 includes/class-difp-cpt.php:89
+#: includes/class-difp-cpt.php:91 includes/class-difp-emails.php:167
+msgid "New Announcement"
+msgstr ""
+
+#: includes/class-difp-cpt.php:90
+msgid "Edit Announcement"
+msgstr ""
+
+#: includes/class-difp-cpt.php:92
+msgid "All Announcements"
+msgstr ""
+
+#: includes/class-difp-cpt.php:93
+msgid "View Announcement"
+msgstr ""
+
+#: includes/class-difp-cpt.php:94
+msgid "Search Announcement"
+msgstr ""
+
+#: includes/class-difp-cpt.php:95
+msgid "No Announcements found"
+msgstr ""
+
+#: includes/class-difp-cpt.php:96
+msgid "No Announcements found in Trash"
+msgstr ""
+
+#: includes/class-difp-cpt.php:98
+msgid "Di Messages"
+msgstr ""
+
+#: includes/class-difp-cpt.php:149
+msgid "Message To"
+msgstr ""
+
+#: includes/class-difp-cpt.php:157
+msgid "Announcement to roles"
+msgstr ""
+
+#: includes/class-difp-cpt.php:171
+msgid ""
+"Changing this will NOT send email to newly added users OR prevent email "
+"sending to removed users if any"
+msgstr ""
+
+#: includes/class-difp-cpt.php:200
+msgid "Sender"
+msgstr ""
+
+#: includes/class-difp-cpt.php:265
+msgid "Can NOT be edited once published"
+msgstr ""
+
+#: includes/class-difp-cpt.php:300 includes/class-difp-cpt.php:304
+msgid "View"
+msgstr ""
+
+#: includes/class-difp-cpt.php:301 includes/class-difp-form.php:651
+msgid "Reply"
+msgstr ""
+
+#: includes/class-difp-cpt.php:310
+msgid "From"
+msgstr ""
+
+#: includes/class-difp-cpt.php:311 includes/class-difp-cpt.php:360
+#: includes/class-difp-form.php:36
+msgid "To"
+msgstr ""
+
+#: includes/class-difp-cpt.php:312
+msgid "Parent"
+msgstr ""
+
+#: includes/class-difp-cpt.php:324
+msgid "No Parent"
+msgstr ""
+
+#: includes/class-difp-cpt.php:337
+msgid "No Participants"
+msgstr ""
+
+#: includes/class-difp-cpt.php:361
+msgid "Read Count"
+msgstr ""
+
+#: includes/class-difp-cpt.php:362
+msgid "Deleted Count"
+msgstr ""
+
+#: includes/class-difp-directory.php:41
+msgid "You do not have permission to access directory!"
+msgstr ""
+
+#: includes/class-difp-emails.php:71
+msgid "You have received a new message in"
+msgstr ""
+
+#: includes/class-difp-emails.php:73
+#, php-format
+msgid "From: %s"
+msgstr ""
+
+#: includes/class-difp-emails.php:74
+#, php-format
+msgid "Subject: %s"
+msgstr ""
+
+#: includes/class-difp-emails.php:75
+msgid "Please Click the following link to view full Message."
+msgstr ""
+
+#: includes/class-difp-emails.php:168
+msgid "A new Announcement is Published in "
+msgstr ""
+
+#: includes/class-difp-emails.php:170
+#, php-format
+msgid "Title: %s"
+msgstr ""
+
+#: includes/class-difp-emails.php:171
+msgid "Please Click the following link to view full Announcement."
+msgstr ""
+
+#: includes/class-difp-form.php:40
+msgid "Name of the receipent."
+msgstr ""
+
+#: includes/class-difp-form.php:41
+msgid "Username of the receipent."
+msgstr ""
+
+#: includes/class-difp-form.php:50 includes/class-difp-form.php:54
+msgid "Subject"
+msgstr ""
+
+#: includes/class-difp-form.php:82
+msgid "Your Bid"
+msgstr ""
+
+#: includes/class-difp-form.php:83
+msgid "Enter Your Bidding Amount here"
+msgstr ""
+
+#: includes/class-difp-form.php:86
+msgid "Bidding Amount"
+msgstr ""
+
+#: includes/class-difp-form.php:98
+msgid "Message"
+msgstr ""
+
+#: includes/class-difp-form.php:137
+msgid "Allow others to send me messages?"
+msgstr ""
+
+#: includes/class-difp-form.php:143
+msgid "Email me when I get new messages?"
+msgstr ""
+
+#: includes/class-difp-form.php:149
+msgid "Email me when new announcement is published?"
+msgstr ""
+
+#: includes/class-difp-form.php:371 includes/functions.php:246
+msgid "Remove"
+msgstr ""
+
+#: includes/class-difp-form.php:374
+msgid "Add new field"
+msgstr ""
+
+#: includes/class-difp-form.php:412
+#, php-format
+msgid "%s required."
+msgstr ""
+
+#: includes/class-difp-form.php:416
+#, php-format
+msgid "%s can not be changed."
+msgstr ""
+
+#: includes/class-difp-form.php:420
+#, php-format
+msgid "%s minlength %d."
+msgstr ""
+
+#: includes/class-difp-form.php:424
+#, php-format
+msgid "%s maxlength %d."
+msgstr ""
+
+#: includes/class-difp-form.php:442
+#, php-format
+msgid "Please provide valid email address for %s."
+msgstr ""
+
+#: includes/class-difp-form.php:448
+#, php-format
+msgid "%s is not a valid number."
+msgstr ""
+
+#: includes/class-difp-form.php:453 includes/class-difp-form.php:458
+#: includes/difp-class.php:170 includes/difp-class.php:186
+#: includes/functions.php:1490 includes/functions.php:1506
+msgid "Invalid Token. Please try again!"
+msgstr ""
+
+#: includes/class-difp-form.php:480 includes/class-difp-form.php:489
+#, php-format
+msgid "%s does not want to receive messages!"
+msgstr ""
+
+#: includes/class-difp-form.php:483
+#, php-format
+msgid "Invalid receiver \"%s\"."
+msgstr ""
+
+#: includes/class-difp-form.php:492
+msgid "You can not message yourself!"
+msgstr ""
+
+#: includes/class-difp-form.php:497
+msgid "You must enter a valid recipient!"
+msgstr ""
+
+#: includes/class-difp-form.php:503
+msgid "Invalid parent ID!"
+msgstr ""
+
+#: includes/class-difp-form.php:505
+msgid "You do not have permission to send this message!"
+msgstr ""
+
+#: includes/class-difp-form.php:515 includes/class-difp-form.php:528
+#, php-format
+msgid "Invalid value for %s."
+msgstr ""
+
+#: includes/class-difp-form.php:549
+#, php-format
+msgid "Attachment (%s) file is too big"
+msgstr ""
+
+#: includes/class-difp-form.php:554
+#, php-format
+msgid "Invalid attachment file type. Allowed Types are (%s)"
+msgstr ""
+
+#: includes/class-difp-form.php:649
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-difp-form.php:653 public/directory.php:26
+#: public/newmessage_form.php:7
+msgid "Send Message"
+msgstr ""
+
+#: includes/class-difp-menu.php:46
+#, php-format
+msgid "Message Box%s"
+msgstr ""
+
+#: includes/class-difp-menu.php:56
+#, php-format
+msgid "Announcement%s"
+msgstr ""
+
+#: includes/class-difp-shortcodes.php:52 includes/class-difp-shortcodes.php:89
+msgid "Contact"
+msgstr ""
+
+#: includes/difp-class.php:36
+msgid "You do not have permission to access message system"
+msgstr ""
+
+#: includes/difp-class.php:96
+#, php-format
+msgid "You must <a href='%s'>login</a> to view your message."
+msgstr ""
+
+#: includes/difp-class.php:124 includes/difp-class.php:152
+#: includes/functions.php:1419 includes/functions.php:1442
+#: includes/functions.php:1472
+msgid "Message successfully sent."
+msgstr ""
+
+#: includes/difp-class.php:126 includes/difp-class.php:154
+#: includes/functions.php:1421 includes/functions.php:1444
+#: includes/functions.php:1474
+msgid "Message successfully sent and waiting for admin moderation."
+msgstr ""
+
+#: includes/difp-class.php:129 includes/difp-class.php:157
+#: includes/functions.php:1424 includes/functions.php:1447
+#: includes/functions.php:1477
+msgid "Something wrong. Please try again."
+msgstr ""
+
+#: includes/difp-class.php:201 includes/functions.php:1521
+msgid "Settings successfully saved."
+msgstr ""
+
+#: includes/difp-class.php:240
+msgid "unlimited"
+msgstr ""
+
+#: includes/difp-class.php:325 public/viewmessage.php:112
+msgid "You do not have permission to view this message!"
+msgstr ""
+
+#: includes/difp-widgets.php:15 includes/difp-widgets.php:48
+msgid "DIFP Menu Widget"
+msgstr ""
+
+#: includes/difp-widgets.php:16
+msgid "DesignInvento Messaging System Menu Widget"
+msgstr ""
+
+#: includes/difp-widgets.php:51 includes/difp-widgets.php:155
+#: includes/difp-widgets.php:250
+msgid "Title:"
+msgstr ""
+
+#: includes/difp-widgets.php:91 includes/difp-widgets.php:150
+msgid "DIFP Text Widget"
+msgstr ""
+
+#: includes/difp-widgets.php:92
+msgid "DesignInvento Messaging System Text Widget"
+msgstr ""
+
+#: includes/difp-widgets.php:114
+msgid "Welcome"
+msgstr ""
+
+#: includes/difp-widgets.php:116 includes/functions.php:1159
+msgid "You have"
+msgstr ""
+
+#: includes/difp-widgets.php:121 includes/functions.php:1151
+#, php-format
+msgid "%s unread message"
+msgid_plural "%s unread messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/difp-widgets.php:126
+msgid " and"
+msgstr ""
+
+#: includes/difp-widgets.php:131 includes/functions.php:1156
+#, php-format
+msgid "%s unread announcement"
+msgid_plural "%s unread announcements"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/difp-widgets.php:160
+msgid "Show Messagebox?"
+msgstr ""
+
+#: includes/difp-widgets.php:164
+msgid "Show Announcement?"
+msgstr ""
+
+#: includes/difp-widgets.php:206 includes/difp-widgets.php:246
+msgid "DIFP Empty Widget"
+msgstr ""
+
+#: includes/difp-widgets.php:207
+msgid "DesignInvento Messaging System Empty Widget"
+msgstr ""
+
+#: includes/difp-widgets.php:256
+msgid "Display help to configure this widget in front end?"
+msgstr ""
+
+#: includes/functions.php:248
+#, php-format
+msgid "Maximum %s allowed"
+msgstr ""
+
+#: includes/functions.php:248
+#, php-format
+msgid "%s file"
+msgid_plural "%s files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions.php:257 includes/functions.php:265
+msgid "Refresh this page and try again. "
+msgstr ""
+
+#: includes/functions.php:370 includes/functions.php:1339
+msgid "Error"
+msgstr ""
+
+#: includes/functions.php:585
+msgid "Unpublished"
+msgstr ""
+
+#: includes/functions.php:591
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/functions.php:902
+msgid "RE:"
+msgstr ""
+
+#: includes/functions.php:1165
+msgid "and"
+msgstr ""
+
+#: includes/functions.php:1329 public/announcement_box.php:10
+msgid "close"
+msgstr ""
+
+#: includes/functions.php:1409 includes/functions.php:1431
+#: public/newmessage_form.php:10
+msgid "You do not have permission to send new message!"
+msgstr ""
+
+#: includes/functions.php:1462 public/reply_form.php:10
+msgid "You do not have permission to send reply to this message!"
+msgstr ""
+
+#: public/announcement_box.php:10
+msgid "No announcements found."
+msgstr ""
+
+#: public/announcement_box.php:20 public/bidbox.php:29 public/messagebox.php:29
+msgid "Bulk action"
+msgstr ""
+
+#: public/announcement_box.php:25 public/bidbox.php:37 public/messagebox.php:37
+msgid "Apply"
+msgstr ""
+
+#: public/announcement_box.php:51
+msgid "No announcements found. Try different filter."
+msgstr ""
+
+#: public/bidbox.php:10
+msgid "No offer found."
+msgstr ""
+
+#: public/bidbox.php:58
+msgid "No offer found. Try different filter."
+msgstr ""
+
+#: public/directory.php:11
+msgid "Search Users"
+msgstr ""
+
+#: public/directory.php:20
+msgid "Total Users"
+msgstr ""
+
+#: public/directory.php:33
+msgid "No users found."
+msgstr ""
+
+#: public/messagebox.php:10
+msgid "No messages found."
+msgstr ""
+
+#: public/messagebox.php:58
+msgid "No messages found. Try different filter."
+msgstr ""
+
+#: public/settings.php:8
+msgid "Set your preferences below"
+msgstr ""
+
+#: public/shortcode_newbidding_form.php:9
+#: public/shortcode_newmessage_form.php:9
+msgid "You do not have permission to send message to this receiver!"
+msgstr ""
+
+#: public/viewmessage.php:52
+msgid "Participants"
+msgstr ""
+
+#: public/viewmessage.php:52
+msgid "Bid Amount"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Frontend Messages For DirectoryPress"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://directorypress.co/product/directorypress-frontend-messages-addon/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Designinvento"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://designinvento.net"
+msgstr ""

@@ -1,0 +1,55 @@
+{
+    "packages": [
+        {
+            "name": "thewebsolver/tws-license-manager-client",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheWebSolver/tws-license-manager-client.git",
+                "reference": "31751eeb7143b4ef21b292fc5a6a5b3f5dd32b1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheWebSolver/tws-license-manager-client/zipball/31751eeb7143b4ef21b292fc5a6a5b3f5dd32b1a",
+                "reference": "31751eeb7143b4ef21b292fc5a6a5b3f5dd32b1a",
+                "shasum": ""
+            },
+            "time": "2021-05-30T12:14:38+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TheWebSolver\\License_Manager\\": [
+                        "Includes"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "hsehszroc",
+                    "email": "shesh@thewebsolver.com"
+                }
+            ],
+            "description": "A PHP Wrapper for handling REST API for License Manager for WooCommerce",
+            "keywords": [
+                "REST API",
+                "api",
+                "thewebsolver",
+                "woocommerce"
+            ],
+            "support": {
+                "issues": "https://github.com/TheWebSolver/tws-license-manager-client/issues",
+                "source": "https://github.com/TheWebSolver/tws-license-manager-client/tree/master"
+            },
+            "install-path": "../thewebsolver/tws-license-manager-client"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

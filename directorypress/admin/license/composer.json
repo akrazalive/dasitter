@@ -1,0 +1,27 @@
+{
+	"name": "thewebsolver/client",
+	"description": "A PHP Wrapper for handling REST API for License Manager for WooCommerce",
+	"license": "GPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "hsehszroc",
+			"email": "shesh@thewebsolver.com"
+		}
+	],
+	"require": {
+		"thewebsolver/tws-license-manager-client": "dev-master"
+	},
+	"keywords": [
+		"API",
+		"REST API",
+		"thewebsolver",
+		"WooCommerce"
+	],
+	"autoload": {
+		"psr-4": {
+			"TheWebSolver\\License_Manager\\": [
+				"Includes"
+			]
+		}
+	}
+}

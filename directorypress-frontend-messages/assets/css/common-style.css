@@ -1,0 +1,81 @@
+/*Menu Styling*/
+#difp-menu
+{
+	color: #333;
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#difp-menu .difp-button,.difp-button,.difp-button-active {
+	
+}
+
+#difp-menu .difp-button:hover,.difp-button-active {
+	
+}
+
+#difp-notification-bar
+{
+	color: black;
+	background-color: #FFEBE8;
+	position: absolute;
+	border-color: #C00;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	border-width: 1px;
+	border-style: solid;
+	padding: 0.6em;
+	margin: 15px 0;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	z-index: 999;
+}
+.difp-font-red { color: #FF0000; }
+
+/*Notify Styling*/
+.difp-error, .difp-success, .difp-wp-error
+{
+	color: black;
+	background-color: #FFEBE8;
+	border-color: #C00;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	border-width: 1px;
+	border-style: solid;
+	padding: 0.6em;
+	margin: 15px 0;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	display:inline-block;
+}
+.difp-success
+{
+	background-color: #66FF99;
+	border-color: #00FF00;
+}
+.directorypress-custom-popup-inner .difp-success{
+	background:none;
+	border:none;
+	display:block;
+	text-align:center;
+	
+}
+.difp-wp-error
+{
+	text-align:left;
+}
+
