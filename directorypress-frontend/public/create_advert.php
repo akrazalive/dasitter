@@ -164,7 +164,7 @@
                             //echo $_SERVER['REMOTE_ADDR'];
 
 					//if ($directorypress_object->current_listing->package->category_number_allowed > 0): 
-                          if($_SERVER['REMOTE_ADDR']=='182.180.75.243' || $_SERVER['REMOTE_ADDR']=='39.62.22.167') {
+                         // if($_SERVER['REMOTE_ADDR']=='182.180.75.243' || $_SERVER['REMOTE_ADDR']=='39.62.22.167') {
 					?>
                            
 						<div class="field-wrap">
@@ -197,7 +197,7 @@
 
 						</div>
 
-					<?php }// endif; ?>
+					<?php //}// endif; ?>
 
 					<?php do_action('frontend_listing_details_after_category_metabox', $directorypress_object->current_listing); ?>
 
@@ -341,7 +341,7 @@
 
 			<?php if ($directorypress_object->current_listing->package->location_number_allowed > 0): ?>
 
-				<div id="address" class="directorypress-submit-form-section ">
+				<div id="address" class="directorypress-submit-form-section" style="display:none;">
 
 					<div class="directorypress-submit-form-section-label">
 
@@ -427,8 +427,6 @@
 
 </div>
 
-<button id="show-element-button">Show Element</button>
-<div id="animated-element" class="hidden animate__animated">This element will roll in</div>
 
  <style type="text/css">
  	/* Initially hide the element */
@@ -480,18 +478,7 @@
 
              });
 
-                jQuery('#show-element-button').click(function() {
-			       // Remove the animation class (if applied previously)
-        jQuery('#address').removeClass('animate__rollIn');
-
-        // Add the "animate__rollIn" class to show the element with the rollIn animation
-        jQuery('#address').addClass('animate__animated animate__rollIn').css('display', 'block');
-
-        
-        
-
- 
-			    });
+              
         });
     </script>
 
