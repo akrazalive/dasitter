@@ -90,21 +90,7 @@
 
 				<div class="directorypress-submit-form-section-content">
 
-					<div class="field-wrap">
-
-						<p class="directorypress-submit-field-title">
-
-							<?php _e('Title', 'directorypress-frontend'); ?>
-
-							<span class="lable label-danger"><?php echo __('Required', 'directorypress-frontend') ?></span>
-
-							<?php do_action('directorypress_listing_submit_admin_info', 'listing_title'); ?>
-
-						</p>
-
-						<input type="text" name="post_title" style="width: 100%" class="form-control" value="<?php if ($directorypress_object->current_listing->post->post_title != __('Auto Draft', 'directorypress-frontend')) echo esc_attr($directorypress_object->current_listing->post->post_title); ?>" />
-
-					</div>
+					
 
 					<?php if ($DIRECTORYPRESS_ADIMN_SETTINGS['message_system'] == 'email_messages' && $DIRECTORYPRESS_ADIMN_SETTINGS['directorypress_custom_contact_email']): ?>
 
@@ -128,7 +114,7 @@
 
 					<?php if ($DIRECTORYPRESS_ADIMN_SETTINGS['directorypress_enable_tags']): ?>
 
-							<div class="field-wrap">
+							<div class="field-wrap" style="display:none;">
 
 								<p class="directorypress-submit-section-label directorypress-submit-field-title">
 
@@ -178,7 +164,7 @@
                             //echo $_SERVER['REMOTE_ADDR'];
 
 					//if ($directorypress_object->current_listing->package->category_number_allowed > 0): 
-                          if($_SERVER['REMOTE_ADDR']=='182.180.75.243') {
+                          if($_SERVER['REMOTE_ADDR']=='182.180.75.243' || $_SERVER['REMOTE_ADDR']=='39.62.22.167') {
 					?>
                            
 						<div class="field-wrap">
@@ -215,11 +201,27 @@
 
 					<?php do_action('frontend_listing_details_after_category_metabox', $directorypress_object->current_listing); ?>
 
+					<div id="title" style="display:none;" class="field-wrap">
+
+						<p class="directorypress-submit-field-title">
+
+							<?php _e('Title', 'directorypress-frontend'); ?>
+
+							<span class="lable label-danger"><?php echo __('Required', 'directorypress-frontend') ?></span>
+
+							<?php do_action('directorypress_listing_submit_admin_info', 'listing_title'); ?>
+
+						</p>
+
+						<input type="text" name="post_title" style="width: 100%" class="form-control" value="<?php if ($directorypress_object->current_listing->post->post_title != __('Auto Draft', 'directorypress-frontend')) echo esc_attr($directorypress_object->current_listing->post->post_title); ?>" />
+
+					</div>
+
 				</div>
 
 			</div>	
 
-			<div class="directorypress-submit-form-section">
+			<div style="display:none" id="extradetails" class="directorypress-submit-form-section">
 
 				<div class="directorypress-submit-form-section-label"><?php _e('Extra Details', 'directorypress-frontend'); ?></div>
 
@@ -307,7 +309,7 @@
 
 			<?php if ($directorypress_object->current_listing->package->images_allowed > 0 || $directorypress_object->current_listing->package->videos_allowed > 0): ?>
 
-				<div class="directorypress-submit-form-section">
+				<div style="display:none" id="media" class="directorypress-submit-form-section">
 
 					<div class="directorypress-submit-form-section-label">
 
@@ -339,7 +341,7 @@
 
 			<?php if ($directorypress_object->current_listing->package->location_number_allowed > 0): ?>
 
-				<div class="directorypress-submit-form-section">
+				<div id="address" class="directorypress-submit-form-section ">
 
 					<div class="directorypress-submit-form-section-label">
 
@@ -424,4 +426,72 @@
 	</div>
 
 </div>
+
+<button id="show-element-button">Show Element</button>
+<div id="animated-element" class="hidden animate__animated">This element will roll in</div>
+
+ <style type="text/css">
+ 	/* Initially hide the element */
+.hidden {
+    display: none;
+}
+
+/* Define the animation */
+@keyframes rollIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply the animation to the element */
+.animate__rollIn {
+    animation: rollIn 2s ease;
+}
+
+.animate__rotateInUpRight, .animate__rotateOutUpRight {
+    --animate-duration: 3s; /* Set the animation duration to 4 seconds */
+}
+ </style>
+    <script>
+        jQuery(document).ready(function () {
+
+             jQuery('select[name="directorypress-category[]"].directorypress-select2').on('change', function() {
+                  
+                    // Remove the animation class (if applied previously)
+			         // Check if any options are selected
+    if (jQuery(this).val() === null || jQuery(this).val().length === 0) {
+        // Remove the animation class (if applied previously) and hide the elements
+        jQuery('#title, #extradetails, #media, #address')
+            .removeClass('animate__rotateInUpRight animate__animated')
+            .addClass('animate__rotateOutUpRight')
+            .css('display', 'none');
+    } else {
+        // Add the "animate__rotateInUpRight" class to show the elements with the rotateInUpRight animation
+        jQuery('#title, #extradetails, #media, #address')
+            .removeClass('animate__rotateOutUpRight')
+            .addClass('animate__rotateInUpRight animate__animated')
+            .css('display', 'block');
+    }
+
+             });
+
+                jQuery('#show-element-button').click(function() {
+			       // Remove the animation class (if applied previously)
+        jQuery('#address').removeClass('animate__rollIn');
+
+        // Add the "animate__rollIn" class to show the element with the rollIn animation
+        jQuery('#address').addClass('animate__animated animate__rollIn').css('display', 'block');
+
+        
+        
+
+ 
+			    });
+        });
+    </script>
 

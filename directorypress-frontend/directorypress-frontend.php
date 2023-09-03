@@ -51,3 +51,10 @@ function run_directorypress_frontend() {
 	$directorypress_fsubmit_instance->run();
 }
 add_action( 'directorypress_after_loaded', 'run_directorypress_frontend' );
+
+
+function enqueue_animate_css() {
+    wp_enqueue_style('animate-css', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+}
+add_action('wp_enqueue_scripts', 'enqueue_animate_css');
+
