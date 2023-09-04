@@ -451,8 +451,8 @@
     animation: rollIn 2s ease;
 }
 
-.animate__rotateInUpRight, .animate__rotateOutUpRight {
-    --animate-duration: 3s; /* Set the animation duration to 4 seconds */
+.animate__slideInUp, .animate__rotateInUpRight, .animate__rotateOutUpRight {
+    --animate-duration: 1s; /* Set the animation duration to 4 seconds */
 }
  </style>
     <script>
@@ -462,19 +462,24 @@
                   
                     // Remove the animation class (if applied previously)
 			         // Check if any options are selected
-    if (jQuery(this).val() === null || jQuery(this).val().length === 0) {
-        // Remove the animation class (if applied previously) and hide the elements
-        jQuery('#title, #extradetails, #media, #address')
-            .removeClass('animate__rotateInUpRight animate__animated')
-            .addClass('animate__rotateOutUpRight')
-            .css('display', 'none');
-    } else {
-        // Add the "animate__rotateInUpRight" class to show the elements with the rotateInUpRight animation
-        jQuery('#title, #extradetails, #media, #address')
-            .removeClass('animate__rotateOutUpRight')
-            .addClass('animate__rotateInUpRight animate__animated')
-            .css('display', 'block');
-    }
+           
+           if (jQuery(this).val() === null || jQuery(this).val().length === 0) {
+                // Remove the animation class (if applied previously) and hide the elements
+                jQuery('#title, #extradetails, #media, #address')
+                    .removeClass('animate__slideInUp animate__animated')
+                    .addClass('animate__slideOutUp')
+                    .css('display', 'none');
+            } else {
+                // Add the "animate__slideInUp" class to show the elements with the slideInUp animation
+                jQuery('#title, #extradetails, #media, #address')
+                    .removeClass('animate__slideOutUp')
+                    .addClass('animate__slideInUp animate__animated')
+                    .css('display', 'block');
+            }
+
+
+
+
 
              });
 
